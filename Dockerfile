@@ -39,6 +39,7 @@ RUN apk --update add \
         curl \
         git \
         supervisor \
+        bash \
     && rm -rf /var/cache/apk/*
 
 RUN curl -sS https://getcomposer.org/installer -o composer-setup.php
