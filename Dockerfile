@@ -8,7 +8,6 @@ RUN apk --update add \
         freetype-dev \
         curl \
         git \
-        supervisor \
         bash \
     && rm -rf /var/cache/apk/*
 
