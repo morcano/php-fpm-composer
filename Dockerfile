@@ -5,6 +5,7 @@ RUN apk --update add \
         libpng-dev \
         libjpeg-turbo \
         libjpeg-turbo-dev \
+        php-mysql \
         freetype-dev \
         curl \
         git \
