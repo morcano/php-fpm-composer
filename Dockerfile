@@ -14,6 +14,8 @@ RUN apk --update add \
         supervisor \
     && rm -rf /var/cache/apk/*
 
+RUN docker-php-ext-configure gd --with-jpeg
+
 RUN docker-php-ext-install \
         opcache \
         gd \
